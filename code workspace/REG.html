@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2>Registration page</h2>
+    <p>Please enter your details in the provided boxes</p>
+    <form action="./success.html">
+      <div class="one">
+        <label for="fname"> First Name </label>
+        <input type="text" id="fname" name="fname" />
+      </div>
+      <div class="one">
+        <label for="lname"> Last Name</label>
+        <input type="text" id="lname" name="lname" />
+      </div>
+      <div class="one">
+        <label for="pnumber">Phone Number</label>
+        <input
+          type="text"
+          id="pnumber"
+          name="pnumber"
+          placeholder="0900 000 000"
+        />
+      </div>
+
+      <div class="one">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="zee@mail.com" required
+        />
+      </div>
+
+      <div class="one">
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="female">Female</label>
+      </div>
+      <div class="one">
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="DOB" name="DOB" />
+      </div>
+
+      <div class="one">
+        <label for="fav-color">Select your Favorite Color</label>
+        <input type="color" id="fav-color" name="fav-color" />
+      </div>
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>

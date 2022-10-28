@@ -1,0 +1,101 @@
+h2{
+    text-align: left;
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #d19481c0;
+}
+.one{
+    text-align: center;
+    margin: 2px;
+    border-radius: 12px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(148, 157, 161, 0.788);
+    border-radius: 5px;
+    padding: 5px;
+   
+}
+#one{
+    text-align: right;
+    color: rgb(7, 7, 182);
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+body {
+    text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+  }
+    h1 {
+      color: #88B04B;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #404F5E;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-size:20px;
+      margin: 0;
+    }
+  i {
+    color: #9ABC66;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+.card {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+}
+.space{
+    margin: 5px;
+}
+h3{
+    color:#d19481c0;   
+    ;
+}
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: rgba(221, 223, 240, 0.705);  
+  }  
+  button {   
+         background-color: #d19481c0;   
+         width: 50%;  
+          color: rgb(17, 16, 14);   
+          padding: 15px;   
+          margin: 10px 0px;   
+          border: none;      
+          cursor: pointer;   
+           }   
+   form {   
+          border: 2px solid #f1f1f1;   
+      }   
+   input[type=text], input[type=password] {   
+          width: 100%;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+          display: inline-block;   
+          border: 2px solid rgb(0, 128, 122);   
+          box-sizing: border-box;   
+      }  
+   button:hover {   
+          opacity: 0.7;   
+      }   
+    .cancelbtn {   
+          width: auto;   
+          padding: 10px 18px;  
+          margin: 10px 5px;  
+      }   
+          
+       
+   .container {   
+          padding: 15px;   
+          background-color: rgba(148, 157, 161, 0.788);  
+      }   
